@@ -6,10 +6,13 @@ let sum = firstCard + secondCard;
 console.log(sum);
 
 
-let age = 22;
-if (age < 21){
-    console.log("You can not enter the club!");
+let age = 100;
+if (age < 100){
+    console.log("Not elegible!");
+}
+else if(age = 100) {
+    console.log("Here is your birthday card from the King!")
 }
 else {
-    console.log("Welcome !")
+    console.log("Not elegible, you have already gotten one!")
 }
