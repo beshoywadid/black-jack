@@ -1,18 +1,14 @@
-let firstCard = 7;
-let secondCard = 1;
+let firstCard = 10;
+let secondCard = 7;
 
 let sum = firstCard + secondCard;
 
-console.log(sum);
-
-
-let age = 100;
-if (age < 100){
-    console.log("Not elegible!");
+if (sum <= 20){
+    console.log("Do you want to draw a new card? 🙂");
 }
-else if(age = 100) {
-    console.log("Here is your birthday card from the King!")
+else if(sum === 21) {
+    console.log("Wohoo! You've got Blackjack! 🥳")
 }
 else {
-    console.log("Not elegible, you have already gotten one!")
+    console.log("You're out of the game! 😭")
 }
