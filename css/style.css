@@ -5,5 +5,5 @@
 
 body {
     background: url('../images/table.png');
-    background-size: contain;
+    background-size: cover;
 }
